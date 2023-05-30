@@ -12,7 +12,7 @@ section { background-color: aliceblue;
 padding: 30px;
 min-width: 250px;
 max-width: 450px;
-text-align: center;
+
 margin: auto;
 box-shadow: 3px 3px 7px black;
 border-radius: 10px;
@@ -23,14 +23,23 @@ align-items: center;
 justify-content: center;
 }
 h1 {
-
+    text-align: center;
     color: rgb(18, 189, 175);
     text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+}
+
+h2
+{
+    font-size: 20px;
+    padding: 30px;
+margin-top: 20px;
 }
 ul > li {
 
     padding: 20px;
     list-style-type: none;
+    list-style: inside;
     
     
 }
