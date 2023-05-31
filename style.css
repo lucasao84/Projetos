@@ -62,3 +62,8 @@ a:hover {
     text-decoration: underline;
    
 }
+
+img {
+    margin-left: 250px;
+    max-width: 200px;
+}
