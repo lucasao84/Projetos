@@ -47,9 +47,10 @@ ul > li {
     
 }
 
-a {  color: #AD9A2B;
+a {  color: #0AA9AE;
     text-decoration: none;
-    font-weight: bolder;
+   
+    text-shadow: 1px 1px 1px black;
 }
 
 a:active {
