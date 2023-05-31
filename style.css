@@ -63,7 +63,23 @@ a:hover {
    
 }
 
-img {
-    padding-left: 250px;
-    max-width: 200px;
+.container {
+    display: flex;
+    justify-content: flex-end;
 }
+
+.imagem-responsiva {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+    
