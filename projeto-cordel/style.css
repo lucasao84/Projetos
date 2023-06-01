@@ -1,0 +1,102 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+@font-face {
+    font-family: 'saricha' ;
+    src: url(fontes/saricha/Sriracha-Regular.ttf) format('opentype');
+}
+
+@font-face {
+    font-family:'One' ;
+    src: url(fontes/passion\ one/PassionOne-Regular.ttf) format('opentype');
+}
+
+header {
+    
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+header h1 {
+     font-family: 'One', sans-serif;
+    text-align: center;
+    font-size: 130px;
+    font-weight: 100px;
+    letter-spacing: 2px;
+
+}
+
+header p { 
+    text-align: center;
+}
+header a {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    font-weight: bold;
+    
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+main p {
+    font-family: 'saricha' , sans-serif;
+    font-size: 50px;
+    width: 500px;
+    padding: 60px;
+}
+
+#fixo {
+
+    background-image: url('imagem/pexels-roman-biernacki-15856912.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#fixei {
+    background-image: url('imagem/pexels-sami-aksu-16949307.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+aside {
+    box-shadow: 3px 2px 10px black;
+}
+
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color:white;
+    padding: 6px ;
+    text-align: center;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white; 
+   
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
