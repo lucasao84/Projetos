@@ -1,102 +1,83 @@
-* 
-{
+* {
     margin: 0;
     padding: 0;
 }
 
-body {
-    
+@font-face {
+    font-family: 'one';
+    src: url(fontes/passion\ one/PassionOne-Bold.ttf) format('opentype')
 }
 
 @font-face {
-    font-family: 'saricha' ;
-    src: url(fontes/saricha/Sriracha-Regular.ttf) format('opentype');
-}
-
-@font-face {
-    font-family:'One' ;
-    src: url(fontes/passion\ one/PassionOne-Regular.ttf) format('opentype');
+    font-family: 'richa' ;
+    src: url(fontes/saricha/Sriracha-Regular.ttf)format('opentype');
 }
 
 header {
-    
     background-color: black;
     color: white;
     padding: 50px;
+    
+    
 }
 
 header h1 {
-     font-family: 'One', sans-serif;
     text-align: center;
-    font-size: 130px;
-    font-weight: 100px;
-    letter-spacing: 2px;
-
+    font-family: 'one', sans-serif;
+    font-size: 8vw;
 }
 
-header p { 
+header p {
+
     text-align: center;
-}
-header a {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+}
+
+a{
     text-decoration: none;
     color: white;
 }
 
-header a:hover {
+a:hover {
     text-decoration: underline;
+}
+
+section {
+    padding: 50px;
+    font-size: 3.3vw;
+    font-family: 'richa' , sans-serif;
+
+}   
+
+ .imagem {
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 7px 6px 13px 0px rgba(0, 0, 0, 0.479);
+ }
+
+.imagem p {
+
+    background-color: rgba(0, 0, 0, 0.644);
     color: white;
+    display: inline-block;
+    padding: 5px;
+
 }
 
-
-main p {
-    font-family: 'saricha' , sans-serif;
-    font-size: 50px;
-    width: 500px;
-    padding: 60px;
-}
-
-#fixo {
+#img1 {
 
     background-image: url('imagem/pexels-roman-biernacki-15856912.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    
 }
 
-#fixei {
+#img2{
+
     background-image: url('imagem/pexels-sami-aksu-16949307.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    
 }
 
-aside {
-    box-shadow: 3px 2px 10px black;
-}
-
-
-footer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+footer  {
     background-color: black;
-    color:white;
-    padding: 6px ;
-    text-align: center;
-
-}
-
-footer a {
-    text-decoration: none;
-    color: white; 
-   
-}
-
-footer a:hover {
-    text-decoration: underline;
     color: white;
+    text-align: center;
 }
