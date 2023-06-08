@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: 'ninja';
+    src: url(ninja_naruto/njnaruto.ttf)format('opentype');
+}
+body
+{
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'ninja', sans-serif;
+    font-size: 5vw;
+}
+
+header {
+    background-image: url(https://1.bp.blogspot.com/-8UpUxKMLCj0/T_NRhZ0lTzI/AAAAAAAAB9Q/bTB6zWkSA2Y/s1600/naruto2.jpg);
+    background-position: left left;
+    color: orange;
+    text-shadow: 2px 2px black;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 4px 5px 14px rgba(0, 0, 0, 0.267);
+    
+}
+
+img {
+    min-width: 250px;
+    max-width: 660px ;
+    width: 100%;
+    padding: 20px;
+  
+    
+
+   
+}
+
+p { 
+    min-width: 250px;
+    max-width: 660px;
+    padding: 20px;
+    margin: auto;
+    line-height: 2em;
+}
+
+.n {
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+h1 , h2 {
+    text-align: center;
+    padding: 50px;
+}
+
+footer .in {
+    background-color: orange;
+    padding: 1px;
+   max-width: 1400px;
+   text-align: center;
+   color: black;
+   font-weight: 200;
+   box-shadow: 1px 1px black;
+}
+
+.imagem01 {
+    background-image: url(https://th.bing.com/th/id/R.5d0b5a2154a4dfc94fe0b32334408b8d?rik=9Fo8bulT3vYtJA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f9%2fc%2f6%2f1410293-naruto-3d-wallpapers-1920x1080-laptop.jpg&ehk=YjmxmvN%2bxKJSVYap9XZHON6Eee6XOQ83erSRRK%2fz%2fnc%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+.imagem01 > p {
+    background-color: rgba(0, 0, 0, 0.425)
+}
+
+.imagem02 {
+    background-image: url(https://1.bp.blogspot.com/-ZevcUmGKcAI/XdyeK3ujToI/AAAAAAAAgSc/WwnXHTKvS3826MCSQ-pqkU0hOHIZiTrWACLcBGAsYHQ/s2560/jump-force-naruto-4k-vx-2560x1440.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+ 
+}
+
+.imagem03 {
+
+    background-image: url(https://th.bing.com/th/id/R.05ca59100cb60092ae34055ee477c5d2?rik=ZvNzHl1DoFYCyw&pid=ImgRaw&r=0);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.imagem03 > p {
+    background-color: rgba(0, 0, 0, 0.356);
+}
