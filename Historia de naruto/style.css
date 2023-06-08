@@ -91,14 +91,30 @@ footer .in {
  
 }
 
+.imagem02 > p {
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
 .imagem03 {
 
     background-image: url(https://th.bing.com/th/id/R.05ca59100cb60092ae34055ee477c5d2?rik=ZvNzHl1DoFYCyw&pid=ImgRaw&r=0);
     background-attachment: fixed;
     background-size: cover;
+    background-position: center center;
 
 }
 
 .imagem03 > p {
     background-color: rgba(0, 0, 0, 0.356);
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
