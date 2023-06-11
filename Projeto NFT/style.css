@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 350px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 200px ;
+    box-shadow: 1px 5px 10px black;
+    
+    
+
+}
+
+.img1 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   max-width: 300px;
+    min-width: 250px;
+   
+}
+
+.img1 img {
+    border-radius: 20px;
+    padding: 10px;
+    
+   
+    
+  
+
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin-left: 20px;
+    
+}
+
+ p {
+    margin-left: 20px;
+ }
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+    
+    padding: 20px;
+   
+    color:hsl(178, 100%, 50%);
+    
+    
+    
+}
+
+.texto1 {
+   margin-right: 70px;
+}
+
+hr {margin: 0px 20px;
+}
+
+.img-flex {
+    display: flex;
+    padding: 15px;
+}
+
+.img-flex img {
+
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 12px;
+    margin-left: 5px;
+    padding: 0.1px;
+    
+ 
+}
+
+.flex > img {
+    padding-right: 8px;
+    
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
